@@ -1,0 +1,24 @@
+why bootstrap?
+-bootstrap is used to apply style to the DOM elements 
+
+which company released bootstrap?
+-twitter
+
+current version of bootstrap?
+-bootstrap 5
+
+Colors in bootstrap
+--------------------------------
+text-primary
+text-success
+text-danger
+text-warning
+text-info
+text-secondary (grey)
+text-dark
+text-light
+text-white
+lead
+text-muted
+text-black-50
+text-white-50
