@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- if you want to handle the events we need 3 file  -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    
+    <!-- jQuery library to handle the events -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <!-- jQuery dependend on Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div class="container mt-5">
+    <!-- <button class="btn btn-success">click me</button>
+    <br><br>
+    <button class="btn btn-danger btn-sm">click me</button>
+    <br><br> -->
+    <button id="my_btn" class="btn btn-primary btn-lg float-right">click me</button>
+    <div id="my_div" class="alert alert-success collapse" style="width: 200px;">
+    <a id="my_a" href="#" class="close">&times;</a>
+    <strong>Record Inserted</strong>
+    </div>
+
+
+</div>
+
+
+<script>
+    $("#my_btn").click(function(){
+        $("#my_div").show("fade");
+        setTimeout(()=>{
+            $("#my_div").hide("fade");
+        },2000);
+    });
+    $("#my_a").click(function(){
+        $("#my_div").hide("fade");
+    });
+</script>
+</body>
+
+</html>
