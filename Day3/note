@@ -1,0 +1,10 @@
+cards
+       -------------
+       -cards are used to block level structure in webpages
+       -cards concept introduce in bootstrap4 if you go for bootstrap3 panel concept is there
+       -in bootstrap4 version only cards concept introduced.where as in bootstrap3.x version we have panel concept
+       
+       what is diff between cards and panel?
+       -in the class so many classess are given so many redemade class are given compare to panel like to display images and so many redymade classes they are provided.
+        margin means div outside gap e.g (m-5)
+        pading means inside gap
