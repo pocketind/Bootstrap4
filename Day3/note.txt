@@ -1,0 +1,9 @@
+1)card
+2)card-header
+3)card-body / card-img-overlay
+4)card-title
+5)card-text
+6)card-footer
+7)card-link / stretched-link
+8)card-img-top
+9)card-img-bottom
